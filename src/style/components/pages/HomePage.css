@@ -1,0 +1,36 @@
+
+
+.container-skills {
+    width: 100%;
+    height: 700px;
+  }
+  
+  .container-skills-h2 h2 {
+    text-align: center;
+    color: #000;
+    font-size: 50px;
+    font-weight: 800;
+  }
+  
+  .tarjeta-skills {
+    margin: auto;
+    margin-top: 60px;
+  }
+  
+  .container img {
+    width: 120px;
+    font-size: 100px;
+    margin: auto;
+    transition: all 0.3s ease;
+  }
+
+  .container img:hover {
+    transform: scale(1.2);
+  }
+  
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 200px);
+  }

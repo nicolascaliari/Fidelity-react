@@ -1,14 +1,15 @@
 import '../style/components/pages/ContactPage.css';
 import Header from  '../component/layout/Header';
 
+
+
+
+
 function ContactPage() {
     return (
-
+      
         <div className='contenedor-contact' >
-             <Header
-             p ='Contáctanos y realiza tus objetivos con nosotros!'
-             
-             />
+ 
             <div className="div-container">
                 <h2>¡Contáctanos!</h2>
 

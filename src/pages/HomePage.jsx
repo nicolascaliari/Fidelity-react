@@ -12,11 +12,7 @@ import node from '../img/node.png'
 function HomePage() {
     return (
         <div className='contenedor-home'>
-             <Header 
-             h1  = "Fidelity Code"
-             p = 'DESARROLLADORES WEB FRONT-END Y BACK-END'
-
-             />
+          
             <div className="container-skills">
                 <div className="container-skills-h2">
                     <h2>Tecnologías que usamos</h2>

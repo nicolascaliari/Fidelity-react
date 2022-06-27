@@ -7,10 +7,7 @@ function ServiciosPage() {
     return (
        
         <div className='contenedor-servicios'>
- <Header
- p = 'Mira nuestros servicios y elegí el que más te convenga para tu proyecto! '
- 
- />
+
             <div className="div-servicios-h2">
                 <h2>Nuestros servicios</h2>
             </div>

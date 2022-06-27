@@ -82,7 +82,7 @@ strong {
   display: flex;
 }
 
-.titulo-header {
+.texto-header {
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -90,12 +90,13 @@ strong {
   justify-content: center;
   margin: auto;
   top: 40%;
+  color: #fff;
+  font-size: 50px;
+  text-shadow: #000 6px 6px 6px;
+  font-weight: 500;
+
 }
 
-.titulo-header  p{
-color: #fff;
-font-size: 40px;
-}
 
 
 .img-fluid {

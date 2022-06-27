@@ -15,22 +15,32 @@ function App() {
   return (
     <div className="App">
      
-     
+    
 
       <BrowserRouter>
-     
+     <Header/>
 
         <Routes>
           <Route path='/' element={<HomePage />}/>
           <Route path='contact' element={<ContactPage />}/>
-          <Route path='servicios' element={ <ServiciosPage />}/>
+          <Route path='service' element={ <ServiciosPage />}/>
 
         </Routes>
 
       </BrowserRouter>
     
-    
-    <Footer />
+      <div>
+      <h2>Dashboard</h2>
+      <button
+        onClick={() =>
+          (document.querySelector("body").style.background = "#3c3")
+        }
+      >
+        Verde
+      </button>
+    </div>
+    <Footer 
+    />
     </div>
   );
 }

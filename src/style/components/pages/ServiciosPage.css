@@ -84,4 +84,25 @@
 }
 
 
+.texto-header {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  top: 40%;
+  color: #fff;
+  font-size: 50px;
+  text-shadow: #000 6px 6px 6px;
 
+}
+
+
+.strong {
+  color: #f06102;
+}
+
+.contenedor-texto-header{
+  width: 100%;
+}

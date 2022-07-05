@@ -1,5 +1,5 @@
 import '../style/components/pages/ContactPage.css';
-import Header from  '../component/layout/Header';
+
 
 
 

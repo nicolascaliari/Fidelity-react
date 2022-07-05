@@ -1,6 +1,6 @@
 import '../style/components/pages/HomePage.css'
 import React from 'react';
-import Header from  '../component/layout/Header';
+
 
 import html from '../img/html.png';
 import CSS3 from '../img/CSS3.svg.png';
@@ -8,6 +8,7 @@ import js from '../img/js.svg.png';
 import python from '../img/python.png';
 import react from '../img/react.png'
 import node from '../img/node.png'
+
 
 function HomePage() {
     return (

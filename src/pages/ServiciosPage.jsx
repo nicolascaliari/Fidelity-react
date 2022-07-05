@@ -1,7 +1,7 @@
 import '../style/components/pages/ServiciosPage.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck } from '@fortawesome/free-solid-svg-icons'
-import Header from  '../component/layout/Header';
+
 
 function ServiciosPage() {
     return (
@@ -85,6 +85,7 @@ function ServiciosPage() {
                     <li> <FontAwesomeIcon className='icon' icon={faCheck} /><span> Sección auto gestionable.</span></li>
                     <li> <FontAwesomeIcon className='icon' icon={faCheck} /><span> Formas de pago.</span></li>
                     <li> <FontAwesomeIcon className='icon' icon={faCheck} /><span> Ubicación de empresa/institución/etc.</span></li>
+                    
                 </ul>
 
                 <div className='div-btn'>  

@@ -4,6 +4,7 @@ import Header from './component/layout/Header';
 import Footer from './component/layout/Footer';
 
 
+
 import HomePage from './pages/HomePage';
 import ContactPage from './pages/ContactPage';
 import ServiciosPage from './pages/ServiciosPage';
@@ -28,17 +29,8 @@ function App() {
         </Routes>
 
       </BrowserRouter>
+  
     
-      <div>
-      <h2>Dashboard</h2>
-      <button
-        onClick={() =>
-          (document.querySelector("body").style.background = "#3c3")
-        }
-      >
-        Verde
-      </button>
-    </div>
     <Footer 
     />
     </div>

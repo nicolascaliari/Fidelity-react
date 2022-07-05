@@ -4,3 +4,8 @@
   box-sizing: border-box;
   font-family: Nunito, sans-serif;
 }
+
+.darkmode {
+  background: #000 !important;
+  color: #fff !important;
+}
